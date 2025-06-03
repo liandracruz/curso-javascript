@@ -1,1 +1,2 @@
-console.log('Meu nome é "NOME". Estou aprendendo JavaScript ás', 12, 'horas.')
+console.log ('Olá Mundo!')
+console.log ('Essa mensagem está sendo exibida no console do navegador')

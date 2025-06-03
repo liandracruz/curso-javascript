@@ -1,7 +1,12 @@
-let nome = 'João'
+const nome = 'Liandra Luiza'
+const sobrenome = 'da Cruz'
+const idade = 23
+const peso = 68
+const altura = 1.69
 
-console.log(nome, ' nasceu em 1984.')
-console.log('Em 2000', nome, 'conheceu Maria.')
-console.log(nome, 'casou com Maria em 2012.')
-console.log('Maria teve 1 filho com', nome, 'em 2015.')
-console.log('O filho de', nome,  'se chama Eduardo.')
+let imc = peso / (altura * altura)
+console.log(imc)
+let anoNascimento = 2025 - 23
+console.log(anoNascimento)
+
+console.log(`${nome} ${sobrenome} nasceu em ${anoNascimento} e tem ${idade} pesa ${peso} kg e tem ${altura} de altura. Portanto seu IMC é ${imc}.`)

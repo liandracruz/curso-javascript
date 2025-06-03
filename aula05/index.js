@@ -1,2 +1,11 @@
-console.log ('Olá Mundo!')
-console.log ('Essa mensagem está sendo exibida no console do navegador')
+const nome = 'João'
+console.log(nome)
+
+const primeiroNumero = 5
+const segundoNumero = 10
+const resultado = primeiroNumero + segundoNumero
+console.log(resultado)
+const resultadoDuplicado = resultado * 2
+console.log(resultadoDuplicado)
+
+console.log(typeof primeiroNumero)
