@@ -1,5 +1,6 @@
-function saudacao(nome) {
-    console.log('Bom dia')
-}
+const raiz = n => n ** 0.5
 
-saudacao()
+console.log(raiz(9))
+console.log(raiz(16))
+console.log(raiz(25))
+
