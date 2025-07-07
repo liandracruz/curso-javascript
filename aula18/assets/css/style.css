@@ -26,7 +26,7 @@ body {
 }
 
 table td{
-    
+    width: 1000px;
 }
 
 form input, form label, form button {
@@ -58,4 +58,9 @@ form button {
 
 form button:hover {
     background-color: var(--cor2);
+}
+
+.paragrafo-resultado {
+    background-color: #50d889;
+    padding: 10px;
 }
